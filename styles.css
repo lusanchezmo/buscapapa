@@ -1,17 +1,32 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 nav{
     width: 100%;
-    height: 70px;
+    height: 50px;
+    display: flex;
+}
+
+.left-navbar{
+    width: 70%;
+    height: 50px;
     background-color: white;
     color: black;
     display: flex;
     justify-content: space-evenly;
     justify-items: baseline;
+}
+
+.right-navbar{
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
 }
 
 .logo{
@@ -20,7 +35,8 @@ nav{
 }
 
 main{
-    padding: 40px 40px 120px 120px;
+    padding: 40px 0px 120px 120px;   
+    background: linear-gradient(194.01deg, #FFFFFF 9.6%, #EAF2F5 89.64%);
 
 }
 
@@ -59,12 +75,12 @@ p{
 
 
 .left2-section{
-    width: 50%;
+    width: 55%;
     margin-top: 7%;
 }
 
 .right2-section{
-    width: 50%;
+    width: 45%;
     margin-top: 7%;
 }
 
@@ -78,4 +94,56 @@ p{
     font-weight: bold;
     outline: none;
     cursor: pointer;
+}
+
+.card-section1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.card-section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.card{
+    width: 350px;
+}
+
+h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-block-end: 0%;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    width: 1440px;
+    height: 471px;
+}
+
+.footer-text{
+    font-size: medium;
+    margin-left: 80px;
+}
+
+.logo-footer{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.div-footer{
+    margin-top: 10%;
 }
