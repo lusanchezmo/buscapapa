@@ -136,14 +136,42 @@ footer{
 
 .footer-text{
     font-size: medium;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 .logo-footer{
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 120px;
+    margin-top: 0px;
 }
 
 .div-footer{
-    margin-top: 10%;
+    margin-top: 100px;
+    display: flex;
+}
+
+h4{
+    font-size: 1.5em;
+    margin-left: 35px;
+
+}
+
+.div-footer1{
+    width: 450px;
+    margin-top: 60px;
+}
+.div-footer2{
+    width: 250px;
+    margin-top: 60px;
+}
+.div-footer3{
+    width: 250px;
+    margin-top: 60px;
+}
+.div-footer4{
+    width: 400px;
+    margin-top: 60px;
+}
+
+.redes_sociales{
+    margin-left: 150px;
 }
