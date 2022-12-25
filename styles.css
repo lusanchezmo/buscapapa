@@ -7,9 +7,14 @@ body{
 
 nav{
     width: 100%;
-    height: 30px;
+    height: 70px;
     display: flex;
-    border-bottom: 10px black;
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+
+header{
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .left-navbar{
@@ -63,11 +68,18 @@ nav{
 .logo{
     margin-left: 50px;
     margin-top: 0px;
+    padding-top: 0px;
+}
+
+.navtext{
+    font-size: 1em;
 }
 
 main{
     padding: 40px 0px 120px 120px;   
     background: linear-gradient(194.01deg, #FFFFFF 9.6%, #EAF2F5 89.64%);
+    margin-top: 0px;
+    padding-top: 0px;
 
 }
 
@@ -76,6 +88,7 @@ main{
     height: auto;
     display: flex;
     margin-right: 0px;
+    margin-top: 0px;
 }
 
 .section-two{
