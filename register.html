@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Registro</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        main{
+            display: flex;
+        }
+
+        .right-div{
+            padding-left: 70px;
+        }
+        
+        .register_witch_google{
+            padding-top: 20px;
+            display: flex;
+        }
+
+        .card-reg-google{
+            border: 2px green;
+            display: flex;
+        }
+
+        .card-reg-facebook{
+            border: 2px green;
+            padding-left: 12px;
+            display: flex;
+        }
+
+        h1{
+            margin-top: 120px;
+        }
+        h3{
+            padding-left: 12px;
+            margin-top: 8px;
+            font-size: 0.8em;
+        }
+
+        input{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="left-div">
+            <img src="./assets/img_register.png" width="560px" alt="">
+        </div>
+        <div class="right-div">
+            <h1>Crear cuenta</h1>
+            <div class="register_witch_google">
+                <div class="card-reg-google">
+                    <img src="./assets/google.svg" width="30px" alt="">
+                    <h3>Continuar con Google</h3>
+                </div>
+                <div class="card-reg-facebook">
+                    <img src="./assets/facebook.svg" width="30px" alt="">
+                    <h3>Continuar con Facebook</h3>
+                </div>      
+            </div>
+            <form action="">
+                <h2>-INGRESA TUS DATOS-</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Correo electronico">
+                <input type="text" placeholder="Contraseña">
+                <button>Crear cuenta</button>
+                <p>¿Ya tienes una cuenta?</p>
+                <a href="">Ingresa aquí</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
