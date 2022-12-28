@@ -33,18 +33,34 @@
         }
 
         .card-reg-google{
-            border: 2px green;
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 0.7rem;
             display: flex;
+            cursor: pointer;
         }
 
         .card-reg-facebook{
-            border: 2px green;
-            padding-left: 12px;
+            margin-left: 20px;
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 0.7rem;
             display: flex;
+            cursor: pointer;
         }
 
         h1{
             margin-top: 120px;
+        }
+
+        h2{
+            margin-left: 60px;
+            color: #909090;
+            font-weight: normal;
         }
         h3{
             padding-left: 12px;
@@ -56,12 +72,49 @@
             display: block;
         }
 
+        form{
+            margin-top: 40px;
+        }
+        input{
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin-top: 20px;
+            width: 450px;
+            height: 40px;
+            background: none;
+            outline: 0px;
+            border: outset;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 10px;
+            padding-left: 12px;
+        }
+
+        button{
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin-top: 35px;
+            width: 380px;
+            height: 40px;
+            color: white;
+            border-radius: 10px;
+            background-color: #519E15;
+            border: solid;
+            border-color: #519E15;
+            cursor: pointer;
+        }
+
+        .ingresa_aqui{
+            margin-top: 20px;
+            display: flex;
+            color: #909090;
+        }
     </style>
 </head>
 <body>
     <main>
         <div class="left-div">
-            <img src="./assets/img_register.png" width="560px" alt="">
+            <img src="./assets/img_register.png" width="610px" alt="">
         </div>
         <div class="right-div">
             <h1>Crear cuenta</h1>
@@ -76,13 +129,15 @@
                 </div>      
             </div>
             <form action="">
-                <h2>-INGRESA TUS DATOS-</h2>
+                <h2> - INGRESA TUS DATOS - </h2>
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Correo electronico">
                 <input type="text" placeholder="Contraseña">
                 <button>Crear cuenta</button>
-                <p>¿Ya tienes una cuenta?</p>
-                <a href="">Ingresa aquí</a>
+                <div class="ingresa_aqui">
+                    <p>¿Ya tienes una cuenta?</p>
+                    <a href="">Ingresa aquí</a>
+                </div>
             </form>
         </div>
     </main>
