@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Log in</title>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        main{
+            display: flex;
+        }
+
+        .div-left{
+            width: 60%;
+        }
+
+        .div-right{
+            width: 40%;
+            text-align: right;
+        }
+
+        h1{
+            margin-top: 7rem;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        h2{
+            font-size: 0.98rem;
+            text-align: center;
+            font-weight: normal;
+            color: #909090;
+        }
+
+        h3{
+            font-weight: normal;
+            padding-left: 1rem;
+        }
+        .card-reg-google{
+            font-weight: normal;
+            border-color: #909090;;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            padding-left: 2rem;
+            padding-right: 1rem;
+            margin-right: 30%;
+            display: flex;
+            cursor: pointer;
+            margin-left: 30%;
+        }
+
+        .linea_horizontal{
+            margin-top: 3%;
+            display: flex;
+        }
+
+        .uno{
+            border-bottom: solid #909090;
+            width: 170px;
+            margin-bottom: 1.5rem;
+            margin-left: 26%;
+        }
+        .h2-or{
+            font-size: 0.98rem;
+            text-align: center;
+            font-weight: normal;
+            color: #909090;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .dos{
+            border-bottom: solid #909090;
+            width: 170px;
+            margin-bottom: 1.5rem;
+        }
+
+        input{
+            display: block;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin-top: 20px;
+            width: 350px;
+            height: 40px;
+            background: none;
+            outline: 0px;
+            border: outset;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 10px;
+            padding-left: 12px;
+            margin-left: 27%;
+        }
+
+        button{
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin-top: 35px;
+            width: 350px;
+            height: 40px;
+            color: white;
+            border-radius: 10px;
+            background-color: #519E15;
+            border: solid;
+            border-color: #519E15;
+            cursor: pointer;
+            margin-left: 28%;
+        }
+
+        .ingresa_aqui{
+            margin-left: 30%;
+            margin-top: 20px;
+            display: flex;
+            color: #909090;
+        }
+        a{
+            padding-top: 15px;
+            padding-left: 7px;
+        }
+
+        .div-contrasena{
+            color: #909090;
+            font-size: small;
+            display: flex;
+            margin-left: 30%;
+        }
+
+        #olvide_mi_contra{
+            margin-left: 10%;
+            cursor: pointer;
+            border-bottom: solid black 1px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="div-left">
+            <h1>Ingresa a buscapapa</h1>
+            <h2>Por favor, ingresa tus datos a continuación</h2>
+            <div class="register_witch_google">
+                <div class="card-reg-google">
+                    <img src="./assets/google.svg" width="30px" alt="">
+                    <h3>Continuar con Google</h3>
+                </div>   
+            </div>
+            <div class="linea_horizontal">
+                <div class="uno"></div>
+                <h2 class="h2-or">or</h2>
+                <div class="dos"></div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Correo electronico" autocomplete="email" required>
+                <input type="text" placeholder="Contraseña" autocomplete="new-password" required>
+
+                <div class="div-contrasena">
+                    <p>Mostrar contraseña</p>
+                    <p id="olvide_mi_contra">Olvide mi contraseña</p>
+                </div>
+
+                <button>Crear cuenta</button>
+                <div class="ingresa_aqui">
+                    <p>¿No tienes una cuenta?</p>
+                    <a href="">Registrate aquí</a>
+                </div>
+            </form>
+        </div>
+        <div class="div-right">
+            <picture>
+                <img src="./assets/img_login.svg" width="559px" alt="Papas en un plato">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
